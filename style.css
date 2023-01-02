@@ -1,0 +1,39 @@
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+
+}
+body {
+
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+
+}
+
+Cambiar de colors
+
+.bg-dark { background-color: var(--dark) !important;}
+.bg-dark-x {background-color: var(--dark-x);}
+
+Aumentar el tamaño en casillas de texto
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.galeria-1 {
+    background-image: url(assets/img/galeria1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.galeria-2 {
+    background-image: url(assets/img/galeria2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.galeria-3 {
+    background-image: url(assets/img/galeria3.jpg);
+    background-size: cover;
+    background-position: center;
+}
